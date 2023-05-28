@@ -1,44 +1,54 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
+  <title>To-Do List Table</title>
+  <link rel="stylesheet" href="./css/reset.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   <link rel="stylesheet" href="./css/main.css">
+   
+
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a>
+<header>
 
-        </nav>
-        <h1>My Website</h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQgEeb7xAX9-klfQqqRGyUwjY1I5GI2JCmg&usqp=CAU">
+     <div class="header">
+        <a href="#default" class="logo"> <img src="./assets/homepage.jpg" alt="" width="100px" height="100px">  </a>
+        <div class="header-right">
+          <a class="active" href="index.html">Home</a>
+           <a  class="active" href="about.html">About</a>
+        </div>
+      </div>
+</header>
+   
+  <h2>To-Do List</h2>
 
-    </header>
-
-    <main>
-        <table>
-            <tr>
-                <th>Tasks</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>Task 1</td>
-                <td>submitted</td>
-            </tr>
-            <tr>
-                <td>Task 2</td>
-                <td>submitted</td>
-            </tr>
-            <tr>
-                <td>Task 3</td>
-                <td>ended</td>
-            </tr>
-        </table>
-    </main>
-
-    <footer>
-        <p> All rights reserved.</p>
-        
-    </footer>
+  <table>
+    <tr>
+      <th>List</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+        <td>Learn JS <i class="fas fa-times false"></i></td>
+        <td><span class="priority-14"></span></td>
+      </tr><tr>
+        <td> create HTML page <i class="fas fa-check true"> </i> </td>
+        <td><span class="priority"></span></td>
+      </tr><tr>
+        <td>Walk the dog <i class="fas fa-check true"> </i></td>
+        <td><span class="priority"></span></td>
+      </tr>
+    <tr>
+      <td>Watch the match  <i class="fas fa-check true"> </i></td>
+      <td><span class="priority"></span></td>
+    </tr>
+  </table>
 </body>
+<footer>
+    <div class="footer">
+        <p>&copy; 2023 All rights reserved.</p>
+      </div>
+</footer>
 </html>

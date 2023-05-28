@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
-    <title>About Me</title>
+ <title>Home page</title>  
+ <link rel="stylesheet" href="./css/reset.css">  
+ <link rel="stylesheet" href="./css/Style.css">    
+ 
+
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a>
-        </nav>
-        <h1>My Website</h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQgEeb7xAX9-klfQqqRGyUwjY1I5GI2JCmg&usqp=CAU">
-    </header>
-    <main>
-        <section>
-            <h2>Information</h2>
-            <img src="data:image/jpeg;base64,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" alt="My Photo">
-            <h3>Name</h3>
-            <p> description</p>
-        </section>
+
+<div class="header">
+  <a href="#default" class="logo"> <img src="./assets/contact.png" alt="" width="100px" height="100px">  </a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+     <a  class="active" href="about.html">About</a>
+  </div>
+</div>
+        </header>
+        <h1 class="Hyyyyy">Your Name </h1>
+        <div class="jojojo">
+                <div class="left">
+                    <img class="image232" src="./assets/contact.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="tututu">Overview About Yourself</h1>
+                </div>
+              </div>
+        </div>
         
-        <section>
-            <h3>Contact Me</h3>
-            <form>
-                <fieldset>
-                    <legend>user information</legend>
-                <label for="name">Name:</label>
-
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea><br><br>
-
-                <input type="submit" value="Submit">
-            </fieldset>
-            </form>
-        </section>
-    </main>
+            <div class="container">
+              <h2>contact me</h2>
+              <form>
+                <label for="username">Full Name:</label>
+                <input type="text"  >
+                
+                <label for="Email">Email</label>
+                <input type="text"  >
+                <label for="username">Phone</label>
+                <input type="text"  >
+                
+                <label for="Email">Message</label>
+                <input type="text"  >
+                
+                <button type="submit">send</button>
+              </form>
+            </div>
 
     <footer>
-        <p>  rights reserved.</p>
-    
+        <div class="footer">
+            <p>&copy; 2023 All rights reserved.</p>
+          </div>
     </footer>
 </body>
 </html>
